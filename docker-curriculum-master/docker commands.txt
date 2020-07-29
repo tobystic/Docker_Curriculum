@@ -21,7 +21,7 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 >docker run -it busybox sh
 
 // to see exposed ports -p and random open ports for a static site for instance in detached mode -d
->docker run -d -P --name static-site prakhar1989/static-site
+>>docker run -d -P --name static-site prakhar1989/static-site
 
 to get into a container
-docker exec -it 893431c46985 /bin/sh
+>>docker exec -it 893431c46985 /bin/sh
